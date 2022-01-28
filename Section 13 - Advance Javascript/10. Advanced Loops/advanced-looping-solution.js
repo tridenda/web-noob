@@ -18,7 +18,7 @@ basket.forEach(item => {
 for (item in detailedBasket) {
   console.log(item);
 }
-
+ 
 for (item of basket) {
   console.log(item);
 }
