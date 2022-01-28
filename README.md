@@ -1,4 +1,4 @@
 # Hello, there!
 
-I'm learning web development from Udemy
+I'm learning web development from Udemy: Zero to Mastery
 
