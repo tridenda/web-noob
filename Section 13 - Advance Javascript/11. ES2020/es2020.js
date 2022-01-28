@@ -50,7 +50,7 @@ if (andrei_pokemon && andrei_pokemon.raichu && will_pokemon
     }
 
 // answer
-if ( andrei?.raichu && will_pokemon?.pikachu?.friend?.charizard) {
+if ( andrei_pokemon?.raichu && will_pokemon?.pikachu?.friend?.charizard) {
     console.log('Fight!');
 } else {
     console.log('Walk away....')
@@ -58,8 +58,8 @@ if ( andrei?.raichu && will_pokemon?.pikachu?.friend?.charizard) {
 
 
 // Exercise 4: What do these each output?
-console.log(false ?? 'hellooo')
-console.log(null ?? 'hellooo')
-console.log(null || 'hellooo')
-console.log((false || null) ?? 'hellooo')
-console.log(null ?? (false || 'hellooo'))
+console.log(false ?? 'hellooo') // 'hellooo' // false is the correct answer
+console.log(null ?? 'hellooo') // 'hellooo'
+console.log(null || 'hellooo') // 'hellooo'
+console.log((false || null) ?? 'hellooo') // 'helloo'
+console.log(null ?? (false || 'hellooo')) // 'helloo'
